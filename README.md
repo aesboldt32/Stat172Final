@@ -23,4 +23,9 @@ install.packages(c("tidyverse", "pROC", "glmnet", "lubridate", "sf", "tigris", "
 <p>We also used data from the American Community Survey(ACS) This data contains Supplemental Poverty Measures, including many of the same variables as the CPS data. The key to using the ACS data was the inclusion of PUMA, which gives us geographical locations for food insecurity. Due to the file size, I am unable to upload it into the repository, but the SAS dataset can be downloaded at <a href="https://www.census.gov/data/datasets/time-series/demo/supplemental-poverty-measure/acs-research-files.html">this link</a>.</p>
 <br>
 <p>The final dataset we used is the file "total_iowa_seniors_by_puma.csv". This dataset allowed us to make predictions on the estimated number of seniors facing food insecurity. We used the proportions that we get from our predictions in order to estimate total senior facing food insecurity by PUMA.</p>
-
+<h1>Reproduce</h1>
+<p>1. After the files are downloaded, you have to change the file path for each of the datasets and the r files that are being sourced.</p>
+<p>2. Run clean_cps.R to get the clean version of the CPS dataset.</p>
+<p>3. Run both predict_FSBAL.R and predict_wrouty.R to get the predictions based on the CPS data.</p>
+<p>4. Run ACSCleaning.R to get the cleaned version of the ACS dataset.</p>
+<p>5. Run ACS_FSBAL.R and ACS_WROUTY.R to get the results and the choropleth maps for food insecurity.</p>
