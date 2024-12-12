@@ -22,4 +22,4 @@ install.packages(c("tidyverse", "pROC", "glmnet", "lubridate", "sf", "tigris", "
 <br>
 <p>We also used data from the American Community Survey(ACS) This data contains Supplemental Poverty Measures, including many of the same variables as the CPS data. The key to using the ACS data was the inclusion of PUMA, which gives us geographical locations for food insecurity. Due to the file size, I am unable to upload it into the repository, but the SAS dataset can be downloaded at <a href="https://www.census.gov/data/datasets/time-series/demo/supplemental-poverty-measure/acs-research-files.html">this link</a>.</p>\
 <br>
-<p>The final dataset we used is the file "</p>
+<p>The final dataset we used is the file "total_iowa_seniors_by_puma.csv". This dataset allowed us to make predictions on the estimated number of seniors facing food insecurity.</p>
