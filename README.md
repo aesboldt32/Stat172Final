@@ -18,4 +18,4 @@
 install.packages(c("tidyverse", "pROC", "glmnet", "lubridate", "sf", "tigris", "ggplot2", "rmapshaper", "ggthemes", "logistf", "haven"))</p>
 
 <h1>Data</h1>
-<p>We used two sources of data to train our model and then make predictions on. The dataset we used to train and fine tune our model comes from the Current Population Survey(CPS) completed by IPUMS(Integrated Public Use Microdata Series). This data provides us with a variety of demographic data about individuals and different food insecurity measures. this file is </p>
+<p>We used two sources of data to train our model and then make predictions on. The dataset we used to train and fine tune our model comes from the Current Population Survey(CPS) completed by IPUMS(Integrated Public Use Microdata Series). This data provides us with a variety of demographic data about individuals and different food insecurity measures. this file is named as "cps_00006.csv" in the data files folder.</p>
