@@ -11,3 +11,5 @@
   </tr>
 </table>
 <h1>Introduction</h1>
+<p>This repository contains the code and data required to reproduce the results of the WesleyLife Meals on Wheels Expansion recommendations completion in STAT 172: Data Mining and General Linear Models. Specifically, the code to produce a linear model and create choropleth maps to visualize food insecurity in the state of Iowa.</p>
+
