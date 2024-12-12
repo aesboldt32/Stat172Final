@@ -18,4 +18,6 @@
 install.packages(c("tidyverse", "pROC", "glmnet", "lubridate", "sf", "tigris", "ggplot2", "rmapshaper", "ggthemes", "logistf", "haven"))</p>
 
 <h1>Data</h1>
-<p>We used two sources of data to train our model and then make predictions on. The dataset we used to train and fine tune our model comes from the Current Population Survey(CPS) completed by IPUMS(Integrated Public Use Microdata Series). This data provides us with a variety of demographic data about individuals and different food insecurity measures. this file is named as "cps_00006.csv" in the data files folder.</p>
+<p>We used three sources of data to train our model and then make predictions on. The dataset we used to train and fine tune our model comes from the Current Population Survey(CPS) completed by IPUMS(Integrated Public Use Microdata Series). This data provides us with a variety of demographic data about individuals and different food insecurity measures. this file is named as "cps_00006.csv" in the data files folder.</p>
+<br>
+<p>We also used data from the American Community Survey(ACS) This data contains Supplemental Poverty Measures, including many of the same variables as the CPS data. The key to using the ACS data was the inclusion of PUMA, which gives us geographical locations for food insecurity. Due to the file size, I am unable to upload it into the repository, but the SAS dataset can be downloaded at <a href="https://www.census.gov/data/datasets/time-series/demo/supplemental-poverty-measure/acs-research-files.html">this link</a>.</p>
